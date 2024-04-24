@@ -1,0 +1,271 @@
+[
+  {
+    "Pastéis": [
+      {
+        "titulo": "Pastel de Queijo",
+        "ingredientes": "Queijo mussarela, tomate, orégano",
+        "valor": 5.0
+      },
+      {
+        "titulo": "Pastel de Carne",
+        "ingredientes": "Carne moída, cebola, pimentão",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Pastel de Frango com Catupiry",
+        "ingredientes": "Frango desfiado, catupiry, milho",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Pastel de Palmito",
+        "ingredientes": "Palmito, cebola, azeitona",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Pastel de Calabresa",
+        "ingredientes": "Calabresa, cebola, pimenta calabresa",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Pastel de Camarão",
+        "ingredientes": "Camarão, creme de leite, alho",
+        "valor": 7.5
+      },
+      {
+        "titulo": "Pastel de Banana com Chocolate",
+        "ingredientes": "Banana, chocolate ao leite, canela",
+        "valor": 5.5
+      },
+      {
+        "titulo": "Pastel de Carne Seca com Queijo Coalho",
+        "ingredientes": "Carne seca desfiada, queijo coalho, cebola",
+        "valor": 7.0
+      },
+      {
+        "titulo": "Pastel de Espinafre com Ricota",
+        "ingredientes": "Espinafre, ricota, noz moscada",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Pastel de Presunto e Queijo",
+        "ingredientes": "Presunto, queijo prato, tomate",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Pastel de Brócolis com Requeijão",
+        "ingredientes": "Brócolis, requeijão, alho",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Pastel de Atum",
+        "ingredientes": "Atum, cebola, tomate",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Pastel de Chocolate",
+        "ingredientes": "Chocolate ao leite, chocolate branco, morango",
+        "valor": 5.5
+      },
+      {
+        "titulo": "Pastel de Carne de Sol com Queijo Coalho",
+        "ingredientes": "Carne de sol desfiada, queijo coalho, cebola roxa",
+        "valor": 7.5
+      },
+      {
+        "titulo": "Pastel de Doce de Leite",
+        "ingredientes": "Doce de leite, coco ralado, canela",
+        "valor": 5.5
+      },
+      {
+        "titulo": "Pastel de Nutella com Morango",
+        "ingredientes": "Nutella, morango, chocolate ao leite",
+        "valor": 7.0
+      },
+      {
+        "titulo": "Pastel de Pizza",
+        "ingredientes": "Molho de tomate, mussarela, pepperoni",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Pastel de Linguiça",
+        "ingredientes": "Linguiça calabresa, queijo mussarela, cebola",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Pastel de Camarão com Catupiry",
+        "ingredientes": "Camarão, catupiry, cebolinha",
+        "valor": 7.5
+      },
+      {
+        "titulo": "Pastel de Queijo Coalho com Goiabada",
+        "ingredientes": "Queijo coalho, goiabada, açúcar",
+        "valor": 6.0
+      }
+    ],
+
+    "Salgados": [
+      {
+        "titulo": "Coxinha de Frango",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Bolinha de Queijo",
+        "valor": 2.5
+      },
+      {
+        "titulo": "Quibe",
+        "valor": 3.0
+      },
+      {
+        "titulo": "Empada de Palmito",
+        "valor": 4.0
+      },
+      {
+        "titulo": "Croquete de Carne",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Enroladinho de Salsicha",
+        "valor": 2.5
+      },
+      {
+        "titulo": "Pastelzinho de Queijo",
+        "valor": 2.5
+      },
+      {
+        "titulo": "Esfiha de Carne",
+        "valor": 3.0
+      },
+      {
+        "titulo": "Empada de Frango",
+        "valor": 4.0
+      },
+      {
+        "titulo": "Bolinho de Bacalhau",
+        "valor": 4.5
+      },
+      {
+        "titulo": "Coxinha de Camarão",
+        "valor": 5.0
+      },
+      {
+        "titulo": "Bolinha de Presunto e Queijo",
+        "valor": 3.0
+      },
+      {
+        "titulo": "Enroladinho de Presunto e Queijo",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Pastelzinho de Carne",
+        "valor": 3.0
+      },
+      {
+        "titulo": "Esfiha de Queijo",
+        "valor": 2.5
+      },
+      {
+        "titulo": "Empada de Camarão",
+        "valor": 5.0
+      },
+      {
+        "titulo": "Croquete de Bacalhau",
+        "valor": 4.5
+      },
+      {
+        "titulo": "Coxinha de Jaca",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Bolinha de Carne",
+        "valor": 3.0
+      },
+      {
+        "titulo": "Quibe de Abóbora",
+        "valor": 3.5
+      }
+    ],
+    "Bebidas": [
+      {
+        "titulo": "Refrigerante Coca-Cola (Lata)",
+        "valor": 4.0
+      },
+      {
+        "titulo": "Refrigerante Pepsi (Lata)",
+        "valor": 4.0
+      },
+      {
+        "titulo": "Água Mineral sem Gás (500ml)",
+        "valor": 2.5
+      },
+      {
+        "titulo": "Água Mineral com Gás (500ml)",
+        "valor": 2.5
+      },
+      {
+        "titulo": "Suco Natural de Laranja",
+        "valor": 5.0
+      },
+      {
+        "titulo": "Suco Natural de Limão",
+        "valor": 4.5
+      },
+      {
+        "titulo": "Suco Natural de Abacaxi",
+        "valor": 4.5
+      },
+      {
+        "titulo": "Suco Natural de Morango",
+        "valor": 5.5
+      },
+      {
+        "titulo": "Suco Natural de Manga",
+        "valor": 5.0
+      },
+      {
+        "titulo": "Vitamina de Banana com Aveia",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Vitamina de Frutas Vermelhas",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Vitamina de Abacate com Leite",
+        "valor": 6.5
+      },
+      {
+        "titulo": "Café Expresso",
+        "valor": 3.0
+      },
+      {
+        "titulo": "Café com Leite",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Cappuccino",
+        "valor": 4.0
+      },
+      {
+        "titulo": "Chá Verde",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Chá de Camomila",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Chá de Hortelã",
+        "valor": 3.5
+      },
+      {
+        "titulo": "Chá de Frutas Vermelhas",
+        "valor": 4.0
+      },
+      {
+        "titulo": "Chocolate Quente",
+        "valor": 4.5
+      }
+    ]
+  }
+]
