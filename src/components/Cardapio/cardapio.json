@@ -3,102 +3,82 @@
     "Pastéis": [
       {
         "titulo": "Pastel de carne",
-        "ingredientes": "",
         "valor": 9.0
       },
       {
         "titulo": "Pastel de pizza simples",
-        "ingredientes": "Presunto e queijo",
         "valor": 9.0
       },
       {
         "titulo": "Pastel de queijo",
-        "ingredientes": "",
         "valor": 9.0
       },
       {
         "titulo": "Pastel de frango",
-        "ingredientes": "",
         "valor": 9.0
       },
       {
         "titulo": "Pastel de palmito",
-        "ingredientes": "",
         "valor": 9.0
       },
       {
         "titulo": "Pastel de palmito c/ queijo",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de palmito c/ catupiry",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de carne c/ queijo e milho",
-        "ingredientes": "",
         "valor": 15.0
       },
       {
         "titulo": "Pastel de carne c/ queijo e ovo",
-        "ingredientes": "",
         "valor": 15.0
       },
       {
         "titulo": "Pastel de carne c/ queijo e azeitona",
-        "ingredientes": "",
         "valor": 15.0
       },
       {
         "titulo": "Pastel de carne c/ palmito e queijo",
-        "ingredientes": "",
         "valor": 15.0
       },
       {
         "titulo": "Pastel de calabresa c/ queijo",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel tudo",
-        "ingredientes": "",
         "valor": 25.0
       },
       {
         "titulo": "Pastel de carne c/ queijo",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de frango catupiry",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de queijo c/ catupiry",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de frango com queijo",
-        "ingredientes": "",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de frango completo",
-        "ingredientes": "Frango, presunto, mussarela, milho, azeitona, tomate e oregano",
         "valor": 16.0
       },
       {
         "titulo": "Pastel de pizza completo",
-        "ingredientes": "Frango, presunto, mussarela, tomate e oregano",
         "valor": 12.0
       },
       {
         "titulo": "Pastel de pizza completo c/ calabresa",
-        "ingredientes": "Frango, presunto, mussarela, tomate, calabresa e oregano",
         "valor": 15.0
       }
     ],
@@ -276,7 +256,6 @@
       },
       {
         "titulo": "Água Mineral",
-        "ingredientes": "",
         "valor": 4.0
       },
       {
