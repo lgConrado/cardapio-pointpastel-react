@@ -2,269 +2,286 @@
   {
     "Pastéis": [
       {
-        "titulo": "Pastel de Queijo",
-        "ingredientes": "Queijo mussarela, tomate, orégano",
-        "valor": 5.0
+        "titulo": "Pastel de carne",
+        "ingredientes": "",
+        "valor": 9.0
       },
       {
-        "titulo": "Pastel de Carne",
-        "ingredientes": "Carne moída, cebola, pimentão",
-        "valor": 6.0
+        "titulo": "Pastel de pizza simples",
+        "ingredientes": "Presunto e queijo",
+        "valor": 9.0
       },
       {
-        "titulo": "Pastel de Frango com Catupiry",
-        "ingredientes": "Frango desfiado, catupiry, milho",
-        "valor": 6.5
+        "titulo": "Pastel de queijo",
+        "ingredientes": "",
+        "valor": 9.0
       },
       {
-        "titulo": "Pastel de Palmito",
-        "ingredientes": "Palmito, cebola, azeitona",
-        "valor": 6.0
+        "titulo": "Pastel de frango",
+        "ingredientes": "",
+        "valor": 9.0
       },
       {
-        "titulo": "Pastel de Calabresa",
-        "ingredientes": "Calabresa, cebola, pimenta calabresa",
-        "valor": 6.0
+        "titulo": "Pastel de palmito",
+        "ingredientes": "",
+        "valor": 9.0
       },
       {
-        "titulo": "Pastel de Camarão",
-        "ingredientes": "Camarão, creme de leite, alho",
-        "valor": 7.5
+        "titulo": "Pastel de palmito c/ queijo",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Banana com Chocolate",
-        "ingredientes": "Banana, chocolate ao leite, canela",
-        "valor": 5.5
+        "titulo": "Pastel de palmito c/ catupiry",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Carne Seca com Queijo Coalho",
-        "ingredientes": "Carne seca desfiada, queijo coalho, cebola",
-        "valor": 7.0
+        "titulo": "Pastel de carne c/ queijo e milho",
+        "ingredientes": "",
+        "valor": 15.0
       },
       {
-        "titulo": "Pastel de Espinafre com Ricota",
-        "ingredientes": "Espinafre, ricota, noz moscada",
-        "valor": 6.5
+        "titulo": "Pastel de carne c/ queijo e ovo",
+        "ingredientes": "",
+        "valor": 15.0
       },
       {
-        "titulo": "Pastel de Presunto e Queijo",
-        "ingredientes": "Presunto, queijo prato, tomate",
-        "valor": 6.0
+        "titulo": "Pastel de carne c/ queijo e azeitona",
+        "ingredientes": "",
+        "valor": 15.0
       },
       {
-        "titulo": "Pastel de Brócolis com Requeijão",
-        "ingredientes": "Brócolis, requeijão, alho",
-        "valor": 6.5
+        "titulo": "Pastel de carne c/ palmito e queijo",
+        "ingredientes": "",
+        "valor": 15.0
       },
       {
-        "titulo": "Pastel de Atum",
-        "ingredientes": "Atum, cebola, tomate",
-        "valor": 6.5
+        "titulo": "Pastel de calabresa c/ queijo",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Chocolate",
-        "ingredientes": "Chocolate ao leite, chocolate branco, morango",
-        "valor": 5.5
+        "titulo": "Pastel tudo",
+        "ingredientes": "",
+        "valor": 25.0
       },
       {
-        "titulo": "Pastel de Carne de Sol com Queijo Coalho",
-        "ingredientes": "Carne de sol desfiada, queijo coalho, cebola roxa",
-        "valor": 7.5
+        "titulo": "Pastel de carne c/ queijo",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Doce de Leite",
-        "ingredientes": "Doce de leite, coco ralado, canela",
-        "valor": 5.5
+        "titulo": "Pastel de frango catupiry",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Nutella com Morango",
-        "ingredientes": "Nutella, morango, chocolate ao leite",
-        "valor": 7.0
+        "titulo": "Pastel de queijo c/ catupiry",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Pizza",
-        "ingredientes": "Molho de tomate, mussarela, pepperoni",
-        "valor": 6.5
+        "titulo": "Pastel de frango com queijo",
+        "ingredientes": "",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Linguiça",
-        "ingredientes": "Linguiça calabresa, queijo mussarela, cebola",
-        "valor": 6.5
+        "titulo": "Pastel de frango completo",
+        "ingredientes": "Frango, presunto, mussarela, milho, azeitona, tomate e oregano",
+        "valor": 16.0
       },
       {
-        "titulo": "Pastel de Camarão com Catupiry",
-        "ingredientes": "Camarão, catupiry, cebolinha",
-        "valor": 7.5
+        "titulo": "Pastel de pizza completo",
+        "ingredientes": "Frango, presunto, mussarela, tomate e oregano",
+        "valor": 12.0
       },
       {
-        "titulo": "Pastel de Queijo Coalho com Goiabada",
-        "ingredientes": "Queijo coalho, goiabada, açúcar",
-        "valor": 6.0
+        "titulo": "Pastel de pizza completo c/ calabresa",
+        "ingredientes": "Frango, presunto, mussarela, tomate, calabresa e oregano",
+        "valor": 15.0
+      }
+    ],
+
+    "Pastéis Doces": [
+      {
+        "titulo": "Pastel de Chocolate Preto",
+        "valor": 10.0
+      },
+      {
+        "titulo": "Pastel de Chocolate c/ Queijo",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Pastel de Chocolate Branco",
+        "valor": 10.0
+      },
+      {
+        "titulo": "Pastel de Banana c/ Canela",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Pastel de Banana c/ Chocolate",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Pastel de Doce de Leite c/ Queijo",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Pastel de Prestigio",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Pastel de Goiabada c/ Queijo",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Pastel de Banana c/ Queijo e Chocolate",
+        "valor": 15.0
+      },
+      {
+        "titulo": "Pastel Banofe (Banana c/ Doce de Leite)",
+        "valor": 12.0
       }
     ],
 
     "Salgados": [
       {
+        "titulo": "Coxinha de Carne",
+        "valor": 9.0
+      },
+      {
         "titulo": "Coxinha de Frango",
-        "valor": 3.5
+        "valor": 9.0
       },
       {
-        "titulo": "Bolinha de Queijo",
-        "valor": 2.5
+        "titulo": "Risólis de Carne",
+        "valor": 9.0
       },
       {
-        "titulo": "Quibe",
-        "valor": 3.0
+        "titulo": "Risólis de Frango c/ Catupiry",
+        "valor": 9.0
       },
       {
-        "titulo": "Empada de Palmito",
-        "valor": 4.0
+        "titulo": "Risólis de Presunto e Queijo",
+        "valor": 9.0
       },
       {
-        "titulo": "Croquete de Carne",
-        "valor": 3.5
+        "titulo": "Kibe com Queijo",
+        "valor": 9.0
       },
       {
-        "titulo": "Enroladinho de Salsicha",
-        "valor": 2.5
+        "titulo": "Espeto de Carne",
+        "valor": 9.0
       },
       {
-        "titulo": "Pastelzinho de Queijo",
-        "valor": 2.5
+        "titulo": "Espeto de Frango",
+        "valor": 9.0
       },
       {
-        "titulo": "Esfiha de Carne",
-        "valor": 3.0
+        "titulo": "Espeto de Frango c/ Batata",
+        "valor": 9.0
       },
       {
-        "titulo": "Empada de Frango",
-        "valor": 4.0
+        "titulo": "Bolinho de Carne",
+        "valor": 9.0
       },
       {
-        "titulo": "Bolinho de Bacalhau",
-        "valor": 4.5
+        "titulo": "Enrolado de Salsicha",
+        "valor": 9.0
       },
       {
-        "titulo": "Coxinha de Camarão",
-        "valor": 5.0
+        "titulo": "Enrolado de Salsicha Pizza",
+        "valor": 12.0
       },
       {
-        "titulo": "Bolinha de Presunto e Queijo",
-        "valor": 3.0
+        "titulo": "Esfirra de Carne",
+        "valor": 10.0
       },
       {
-        "titulo": "Enroladinho de Presunto e Queijo",
-        "valor": 3.5
+        "titulo": "Esfirra de Frango c/ Catupiry",
+        "valor": 10.0
       },
       {
-        "titulo": "Pastelzinho de Carne",
-        "valor": 3.0
+        "titulo": "Esfirra de Calabresa",
+        "valor": 10.0
       },
       {
-        "titulo": "Esfiha de Queijo",
-        "valor": 2.5
-      },
-      {
-        "titulo": "Empada de Camarão",
-        "valor": 5.0
-      },
-      {
-        "titulo": "Croquete de Bacalhau",
-        "valor": 4.5
-      },
-      {
-        "titulo": "Coxinha de Jaca",
-        "valor": 3.5
-      },
-      {
-        "titulo": "Bolinha de Carne",
-        "valor": 3.0
-      },
-      {
-        "titulo": "Quibe de Abóbora",
-        "valor": 3.5
+        "titulo": "Esfirra de Pizza",
+        "valor": 10.0
       }
     ],
+
     "Bebidas": [
       {
-        "titulo": "Refrigerante Coca-Cola (Lata)",
-        "valor": 4.0
+        "titulo": "Cerveja Heineken",
+        "valor": 10.0
       },
       {
-        "titulo": "Refrigerante Pepsi (Lata)",
-        "valor": 4.0
-      },
-      {
-        "titulo": "Água Mineral sem Gás (500ml)",
-        "valor": 2.5
-      },
-      {
-        "titulo": "Água Mineral com Gás (500ml)",
-        "valor": 2.5
-      },
-      {
-        "titulo": "Suco Natural de Laranja",
-        "valor": 5.0
-      },
-      {
-        "titulo": "Suco Natural de Limão",
-        "valor": 4.5
-      },
-      {
-        "titulo": "Suco Natural de Abacaxi",
-        "valor": 4.5
-      },
-      {
-        "titulo": "Suco Natural de Morango",
-        "valor": 5.5
-      },
-      {
-        "titulo": "Suco Natural de Manga",
-        "valor": 5.0
-      },
-      {
-        "titulo": "Vitamina de Banana com Aveia",
+        "titulo": "Cerveja Brahma Lata",
         "valor": 6.0
       },
       {
-        "titulo": "Vitamina de Frutas Vermelhas",
-        "valor": 6.5
+        "titulo": "Cerveja Skol Lata",
+        "valor": 6.0
       },
       {
-        "titulo": "Vitamina de Abacate com Leite",
-        "valor": 6.5
+        "titulo": "Coca Cola Lata",
+        "valor": 6.0
       },
       {
-        "titulo": "Café Expresso",
+        "titulo": "Coca Cola Zero Lata",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Fanta Lata",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Sprite Lata",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Guaraná Lata",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Sodinha Garrafa",
         "valor": 3.0
       },
       {
-        "titulo": "Café com Leite",
-        "valor": 3.5
-      },
-      {
-        "titulo": "Cappuccino",
+        "titulo": "Guaraná Garrafa",
         "valor": 4.0
       },
       {
-        "titulo": "Chá Verde",
-        "valor": 3.5
+        "titulo": "Coca Cola 600 ml",
+        "valor": 9.0
       },
       {
-        "titulo": "Chá de Camomila",
-        "valor": 3.5
+        "titulo": "Coca Cola 1 litro",
+        "valor": 12.0
       },
       {
-        "titulo": "Chá de Hortelã",
-        "valor": 3.5
+        "titulo": "Top Laranja - 330 ml",
+        "valor": 6.0
       },
       {
-        "titulo": "Chá de Frutas Vermelhas",
+        "titulo": "Top Citrus Laranja - 1 litro",
+        "valor": 12.0
+      },
+      {
+        "titulo": "Suco de Laranja Natural",
+        "valor": 6.0
+      },
+      {
+        "titulo": "Água Mineral",
+        "ingredientes": "",
         "valor": 4.0
       },
       {
-        "titulo": "Chocolate Quente",
-        "valor": 4.5
+        "titulo": "Água Mineral c/ Gás",
+        "valor": 4.0
       }
     ]
   }
