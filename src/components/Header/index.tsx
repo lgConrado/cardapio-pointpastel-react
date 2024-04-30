@@ -4,16 +4,10 @@ import logo from "../../assets/logo.jpg";
 const CustomHeader = styled.header`
   align-items: center;
   display: flex;
-  padding: 32px 0;
-  justify-content: center;
+  padding: 32px 24px;
   width: 100vw;
 `;
 
-const CustomTitulo = styled.h1`
-  color: var(--cor-secundaria);
-  font-size: 2.5rem;
-  font-weight: 700;
-`;
 
 const CustomTextoLogo = styled.h2`
   font-size: 1.25rem;
@@ -23,9 +17,6 @@ const CustomLogo = styled.div`
   display: flex;
   align-items: center;
   gap: 16px;
-  position: absolute;
-  left: 24px;
-  top: 24px;
 `;
 
 const CustomImagemLogo = styled.img`
@@ -43,7 +34,6 @@ const Header = () => {
           <CustomTextoLogo>do Pastel</CustomTextoLogo>
         </span>
       </CustomLogo>
-      <CustomTitulo>Cardápio</CustomTitulo>
     </CustomHeader>
   );
 };
