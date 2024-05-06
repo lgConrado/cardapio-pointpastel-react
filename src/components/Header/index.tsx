@@ -8,14 +8,13 @@ const CustomHeader = styled.header`
   width: 100vw;
 `;
 
-
 const CustomTextoLogo = styled.h2`
   font-size: 1.25rem;
 `;
 
 const CustomLogo = styled.div`
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 16px;
 `;
 

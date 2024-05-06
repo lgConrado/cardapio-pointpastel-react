@@ -26,24 +26,24 @@ const CustomButtons = styled.div`
 
 const CustomButton = styled.button`
   appearance: none;
-  border-radius: 64px;
-  height: 48px;
-  cursor: pointer;
-  border: none;
   background-color: transparent;
+  border: none;
+  border-radius: 64px;
   color: var(--cor-secundaria);
-  width: 200px;
+  cursor: pointer;
   font-size: 1.25rem;
+  height: 48px;
   transition: 0.2s background-color ease-in-out, 0.2s color ease-in-out;
+  width: 200px;
 
   &:hover {
-    color: var(--cor-fundo);
     background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
   }
 
   &[aria-actived="true"] {
-    color: var(--cor-fundo);
     background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
   }
 `;
 
@@ -63,12 +63,12 @@ const CustomSectionTitle = styled.h2`
 `;
 
 const CustomOptions = styled.div`
+  column-gap: 32px;
   display: grid;
   flex-direction: column;
-  column-gap: 32px;
-  row-gap: 16px;
-  padding: 0 32px;
   grid-template-columns: repeat(2, 1fr);
+  padding: 0 32px;
+  row-gap: 16px;
 `;
 
 const CustomOption = styled.span`
