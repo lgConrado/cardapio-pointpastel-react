@@ -6,7 +6,7 @@ const CustomSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 64px;
-  width: 100%;
+  width: 100vw;
 `;
 
 const CustomButtonsContainer = styled.div`
@@ -16,12 +16,21 @@ const CustomButtonsContainer = styled.div`
 `;
 
 const CustomButtons = styled.div`
-  justify-content: center;
+  border-radius: 64px;
+  justify-content: space-between;
   display: flex;
   border: 1px solid var(--cor-primaria);
   width: 800px;
-  overflow: hidden;
-  border-radius: 64px;
+
+  @media (max-width: 1028px) {
+    width: 640px;
+  }
+  @media (max-width: 720px) {
+    width: 400px;
+  }
+  @media (max-width: 480px) {
+    width: 320px;
+  }
 `;
 
 const CustomButton = styled.button`
@@ -34,7 +43,7 @@ const CustomButton = styled.button`
   font-size: 1.25rem;
   height: 48px;
   transition: 0.2s background-color ease-in-out, 0.2s color ease-in-out;
-  width: 200px;
+  width: 100%;
 
   &:hover {
     background-color: var(--cor-primaria);
@@ -44,6 +53,14 @@ const CustomButton = styled.button`
   &[aria-actived="true"] {
     background-color: var(--cor-primaria);
     color: var(--cor-fundo);
+  }
+
+  @media (max-width: 720px) {
+    font-size: 1.125rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 0.875rem;
+    height: 40px;
   }
 `;
 
@@ -55,11 +72,23 @@ const CustomCardapio = styled.div`
 
 const CustomSectionTitleContainer = styled.span`
   border-bottom: 1px solid var(--cor-primaria);
-  padding: 0 0 8px 32px;
+  padding: 0 0 8px 48px;
+
+  @media (max-width: 720px) {
+    padding: 0 0 8px 24px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 0 8px 16px;
+  }
 `;
 
 const CustomSectionTitle = styled.h2`
   color: var(--cor-secundaria);
+
+  @media (max-width: 720px) {
+    font-size: 1.25rem;
+  }
 `;
 
 const CustomOptions = styled.div`
@@ -67,12 +96,24 @@ const CustomOptions = styled.div`
   display: grid;
   flex-direction: column;
   grid-template-columns: repeat(2, 1fr);
-  padding: 0 32px;
+  padding: 0 48px;
   row-gap: 16px;
+
+  @media (max-width: 720px) {
+    column-gap: 24px;
+    padding: 0 24px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const CustomOption = styled.span`
   display: flex;
+  gap: 24px;
   justify-content: space-between;
   padding: 4px 0;
   transition: 0.2s background-color ease-in-out;
@@ -84,10 +125,19 @@ const CustomOption = styled.span`
       color: var(--cor-secundaria);
     }
   }
+
+  @media (max-width: 720px) {
+    align-items: center;
+    gap: 16px;
+  }
 `;
 
 const CustomDescriptionOption = styled.h3`
   transition: 0.2s color ease-in-out;
+
+  @media (max-width: 720px) {
+    font-size: 0.875rem;
+  }
 `;
 
 const Cardapio = () => {

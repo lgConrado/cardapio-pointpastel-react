@@ -6,32 +6,19 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import logo from "../../assets/logo.jpg";
 
 const CustomFooter = styled.footer`
   border-top: 1px solid var(--cor-primaria);
-  display: flex;
+  margin-top: 128px;
+  width: 100vw;
+`;
+
+const CustomConteudo = styled.span`
   padding: 32px;
+  display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: center;
-  margin-top: 128px;
-  width: 100%;
-`;
-
-const CustomTextoLogo = styled.h2`
-  font-size: 1.25rem;
-`;
-
-const CustomLogo = styled.div`
-  align-items: center;
-  display: flex;
-  gap: 16px;
-`;
-
-const CustomImagemLogo = styled.img`
-  height: 64px;
-  width: 64px;
 `;
 
 const CustomLista = styled.ul`
@@ -39,13 +26,20 @@ const CustomLista = styled.ul`
   gap: 64px;
   justify-content: center;
   list-style: none;
+
+  @media (max-width: 720px) {
+    gap: 32px;
+  }
+  @media (max-width: 480px) {
+    gap: 16px;
+  }
 `;
 
 const CustomItem = styled.li`
   text-decoration: none;
 `;
 
-const CustomIcon = styled.span`
+const CustomIconContainer = styled.span`
   align-items: center;
   border: 3px solid var(--cor-primaria);
   border-radius: 128px;
@@ -59,6 +53,23 @@ const CustomIcon = styled.span`
     background-color: var(--cor-primaria);
     color: var(--cor-fundo);
   }
+
+  @media (max-width: 720px) {
+    padding: 12px;
+  }
+  @media (max-width: 480px) {
+    border: 2px solid var(--cor-primaria);
+  }
+`;
+
+const CustomIcon = styled(FontAwesomeIcon)`
+  height: 32px;
+  width: 32px;
+
+  @media (max-width: 480px) {
+    height: 24px;
+    width: 24px;
+  }
 `;
 
 const CustomCopyright = styled.div`
@@ -71,55 +82,49 @@ const CustomCopyright = styled.div`
   }
 `;
 
+const CustomCopyrightText = styled.h3`
+  font-size: 1.25rem;
+
+  @media (max-width: 720px) {
+    font-size: 1.125rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 1rem;
+  }
+`;
+
 const Footer = () => {
   return (
     <CustomFooter>
-      <CustomLogo>
-        <CustomImagemLogo src={logo} />
-        <span>
-          <CustomTextoLogo>Point</CustomTextoLogo>
-          <CustomTextoLogo>do Pastel</CustomTextoLogo>
-        </span>
-      </CustomLogo>
-      <CustomLista>
-        <CustomItem>
-          <CustomIcon>
-            <FontAwesomeIcon
-              icon={faInstagram}
-              style={{ width: "32px", height: "32px" }}
-            />
-          </CustomIcon>
-        </CustomItem>
-        <CustomItem>
-          <CustomIcon>
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              style={{ width: "32px", height: "32px" }}
-            />
-          </CustomIcon>
-        </CustomItem>
-        <CustomItem>
-          <CustomIcon>
-            <FontAwesomeIcon
-              icon={faGithub}
-              style={{ width: "32px", height: "32px" }}
-            />
-          </CustomIcon>
-        </CustomItem>
-        <CustomItem>
-          <CustomIcon>
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              style={{ width: "32px", height: "32px" }}
-            />
-          </CustomIcon>
-        </CustomItem>
-      </CustomLista>
-      <CustomCopyright>
-        <h3>
-          &copy; 2024 - Luiz Gustavo Conrado. Todos os direitos reservados.
-        </h3>
-      </CustomCopyright>
+      <CustomConteudo>
+        <CustomLista>
+          <CustomItem>
+            <CustomIconContainer>
+              <CustomIcon icon={faInstagram} />
+            </CustomIconContainer>
+          </CustomItem>
+          <CustomItem>
+            <CustomIconContainer>
+              <CustomIcon icon={faWhatsapp} />
+            </CustomIconContainer>
+          </CustomItem>
+          <CustomItem>
+            <CustomIconContainer>
+              <CustomIcon icon={faGithub} />
+            </CustomIconContainer>
+          </CustomItem>
+          <CustomItem>
+            <CustomIconContainer>
+              <CustomIcon icon={faLinkedin} />
+            </CustomIconContainer>
+          </CustomItem>
+        </CustomLista>
+        <CustomCopyright>
+          <CustomCopyrightText>
+            &copy; 2024 - Luiz Gustavo Conrado. Todos os direitos reservados.
+          </CustomCopyrightText>
+        </CustomCopyright>
+      </CustomConteudo>
     </CustomFooter>
   );
 };
